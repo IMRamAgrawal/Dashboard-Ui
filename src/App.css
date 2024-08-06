@@ -1,0 +1,23 @@
+/* 
+
+.no-scrollbar {
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  /* scrollbar-width: none; /* Firefox */
+/* }  */
+
+.no-scrollbar{
+  /* display: none; */
+  overflow: hidden;
+}
+
+
