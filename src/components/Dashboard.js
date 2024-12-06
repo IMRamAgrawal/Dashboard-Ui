@@ -44,7 +44,7 @@ const Dashboard = () => {
         <Grid item xs={4} md={2}>
           <StatisticsCard
             title="Total Delivered"
-            value="70"
+            value="78"
             button={<ShoppingBagIcon sx={{ fontSize: 20 }} />}
             cardColor="#195146"
             color="red"
@@ -82,7 +82,8 @@ const Dashboard = () => {
             <RecentOrders />
           </Grid>
           <Grid item xs={12} md={4}>
-            <CustomerFeedback />
+            <CustomerFeedback /
+              >
           </Grid>
         </Grid>
       </Grid>
